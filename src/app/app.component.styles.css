@@ -1,0 +1,89 @@
+.searchFilter {
+    width: 18vw;
+    font-size: 1vw;
+    color:white;
+}
+.filtersIcon{
+  margin:0.2vw;
+  width:1.5vw;
+  height:1.5vw;
+}
+
+#headerTree{
+  display:inline-flex;
+}
+
+#listAdd{
+  position: absolute;
+  top:4vw;
+  left:18vw;
+  font-size: 2vw;
+  color:white;
+  font-weight: 900;
+  padding: 0vw 0.5vw;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.tree-body{
+   position: relative
+
+}
+.tree{
+  width:23%;
+  height: 100vh;
+  /* overflow-y:scroll; */
+  display: inline-block;
+  
+}
+.fdc-body{
+  width:80%;
+  background-color: white;
+  position: absolute;
+  display: inline-block;
+  height: 100%
+}
+.mat-tab-label {
+    background-color: #2B2A2A;
+    color: white;
+    z-index: 40;
+    min-width: 6vw !important;
+   height:2vw !important;
+ 
+}
+
+.mat-tab-label.mat-tab-label-active {
+    background-color: #3B3B3B !important;
+    color: lightslategray;
+}
+
+.mat-ink-bar {
+    background-color: #318FD7;
+}
+
+p {
+    font-family: Lato;
+}
+
+.mat-tab-header, .mat-tab-nav-bar {
+    border: none;
+}
+
+.mat-tab-group.mat-primary .mat-tab-label:not(.mat-tab-disabled):focus {
+    background-color: black;
+}
+.mat-tab-group.mat-primary .mat-ink-bar {
+    background-color: #318FD7;
+}
+
+.mat-tab-label-container{
+  height:2.5vw
+}
+
+.list:hover {
+    background-color: pink;
+}
+
+.mat-tab-body  .mat-tab-body-content {
+    overflow: hidden !important;
+}

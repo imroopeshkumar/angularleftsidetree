@@ -1,0 +1,23 @@
+export const BlobUrl = {
+  "Wells": "",
+  "Battery": "",
+  "Facility": "",
+  "Plant": "",
+  "Orifice Meter": "https://althingsblob.blob.core.windows.net/fdc/OrificeMeter_Icon_23.42.svg",
+  "Gas Meter": " ",
+  "Liquid Meter": "",
+  "Turbine Meter": "https://althingsblob.blob.core.windows.net/palletsvg/ProcessEng/Proc.%20Eng.%20Engines/Turbine.svg",
+  "Tank": "",
+  "Truck Ticket": "",
+  "Daily QTR (Quantity Transaction Record)": "",
+  "Area": "",
+  "District": "",
+  "Field": "",
+  "Compressor": "https://althingsblob.blob.core.windows.net/palletsvg/ProcessEng/Proc.%20Eng.%20Compressors/Compressor.svg",
+  "Flare Event": "",
+  "Emmission Event": "",
+  "Fuel Event": "",
+  "Partner": "",
+  "Licensee": "",
+  "Operator": ""
+}

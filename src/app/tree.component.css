@@ -1,0 +1,24 @@
+p {
+  font-family: Lato;
+}
+
+.node rect {
+  cursor: pointer;
+  fill: #fff;
+  fill-opacity: .5;
+  stroke: #ffffff;
+  stroke-width: .1px;
+}
+.node text {
+  font: 10px sans-serif;
+  pointer-events: none;
+  font-color: #FFFFFF;
+  
+}
+  
+path.link {
+  fill: none;
+  stroke: #ffffff;
+  stroke-width: .1px;
+}
+

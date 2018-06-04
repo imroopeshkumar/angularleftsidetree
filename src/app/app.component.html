@@ -1,0 +1,46 @@
+<div>
+	<div class="tree">
+		<div slimScroll width="100%" height="100%" style="height:100%">
+			<!-- <div class="searchFilter">
+			<mat-form-field >
+				<input  matInput placeholder="Filter">
+			</mat-form-field>
+      
+			<img class="filtersIcon" src="" />
+			<img class="filtersIcon" src="" />
+		</div> -->
+			<div id="headerTree">
+				<form class="example-form">
+					<mat-form-field class="searchFilter">
+						<input matInput placeholder="Filter">
+					</mat-form-field>
+				</form>
+				<img class="filtersIcon" src="https://www.iconsdb.com/icons/preview/dark-gray/empty-filter-xxl.png"
+				/>
+				
+
+			</div>
+
+			<div id="listAdd">+</div>
+
+			<div class="tree-body">
+				<mat-tab-group disableRipple='true' (selectedTabChange)="tree1.intializeTree($event.index);tree2.intializeTree($event.index);tree3.intializeTree($event.index)">
+					<mat-tab label="ALL" class="tab-header">
+						<tree #tree1 [data]="allJSON" [index]='0'></tree>
+					</mat-tab>
+					<mat-tab label="List" class="tab-header">
+						<tree #tree2 [data]="listJSON" [index]='1'></tree>
+					</mat-tab>
+					<mat-tab label="Search" class="tab-header">
+						<tree [data]="searchJSON" [index]='2' #tree3></tree>
+					</mat-tab>
+
+				</mat-tab-group>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="fdc-body">
+	</div>
+</div>
